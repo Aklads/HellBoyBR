@@ -6949,7 +6949,7 @@ magics = {
         "[🔰]","Outros Feitiços",
         content = {
             {
-                "Chibi Height",
+                "Chibi",
                 -305102667
             },
             {
@@ -7189,31 +7189,31 @@ world = {
         "[⛰]","Campina da Aurora",
         content = {
             {
-                "Butterfly Fields",
+                "Campo de Borboletas",
                 "Prairie_ButterflyFields" 
             },
             {
-                "Birds Nest",
+                "Ninho de Pássaros",
                 "Prairie_NestAndKeeper"
             },
             {
-                "Sanctuary Island",
+                "Santuário",
                 "Prairie_Island"
             },
             {
-                "Cave",
+                "Caverna",
                 "Prairie_Cave"
             },
             {
-                "Village",
+                "Vila dos Sinos",
                 "Prairie_Village"
             },
             {
-                "8 Players Door",
+                "Elevador de 8 pessoas",
                 "DayHubCave"
             },
             {
-                "Temple",
+                "Templo",
                 "DayEnd"
             },
 
@@ -7223,35 +7223,35 @@ world = {
         "[🏕]","Floresta Oculta",
         content = {
             {
-                "Hidden Forest",
+                "Clareira Inicial",
                 "Rain"
             },
             {
-                "Raining Forest",
+                "Riacho",
                 "RainForest"
             },
             {
-                "Shelter",
+                "Clareira Elevada",
                 "RainShelter"
             },
             {
-                "Cave",
+                "Caverna",
                 "Rain_Cave"
             },
             {
-                "Middle Forest",
+                "Ponte Quebrada",
                 "RainMid"
             },
             {
-                "Assembly Base",
+                "Casa da Árvore",
                 "Rain_BaseCamp"
             },
             {
-                "Wind Pathes",
+                "Trilhas do Vento",
                 "Skyway"
             },
             {
-                "Temple",
+                "Templo",
                 "RainEnd"
             },
         },
@@ -7260,39 +7260,39 @@ world = {
         "[🗻]","Vale do Triunfo",
         content = {
             {
-                "Valley",
+                "Inicio",
                 "Sunset"
             },
             {
-                "Sliding Race",
+                "Corrida de Esqui",
                 "SunsetRace"
             },
             {
-                "Citadel",
+                "Cidadela",
                 "Sunset_Citadel"
             },
             {
-                "Flying Race",
+                "Corrida de Vôo",
                 "Sunset_FlyRace"
             },
             {
-                "Dream's Village",
+                "Vilarejo dos Sonhos",
                 "SunsetVillage"
             },
             {
-                "Yeti Cave",
+                "Desfiladeiro do Ieti",
                 "Sunset_YetiPark"
             },
             {
-                "Before Colosseum",
+                "Fim da Corrida",
                 "SunsetEnd"
             },
             {
-                "Colosseum",
+                "Coliseu",
                 "SunsetColosseum"
             },
             {
-                "Temple",
+                "Templo",
                 "SunsetEnd2"
             },
         },
@@ -7301,39 +7301,39 @@ world = {
         "[🏜]","Sertão Dourado",
         content = {
             {
-                "Social Space",
+                "Espaço Social",
                 "DuskStart"
             },
             {
-                "Nintendo Park",
+                "Parque Nintendo",
                 "Nintendo_CandleSpace"
             },
             {
-                "Abyss",
+                "Abismo",
                 "Dusk_Triangle"
             },
             {
-                "Wasteland",
+                "Templo Destruido",
                 "Dusk"
             },
             {
-                "Forgotten Ark",
+                "Arca Esquecida",
                 "DuskOasis"
             },
             {
-                "Graveyard",
+                "Cemitério",
                 "DuskGraveyard"
             },
             {
-                "Sinking Ship",
+                "Navio Naufrágado",
                 "Dusk_CrabField"
             },
             {
-                "Krills Field",
+                "Campo de Batalha",
                 "DuskMid"
             },
             {
-                "Temple",
+                "Templo",
                 "DuskEnd"
             },
         },
@@ -7342,47 +7342,47 @@ world = {
         "[🛕]","Relicário do Conhecimento",
         content = {
             {
-                "Vault",
+                "Relicário",
                 "Night"
             },
             {
-                "Archives",
+                "Cofre do Conhecimento",
                 "NightArchive"
             },
             {
-                "Mantas Field",
+                "Campo das Mantas",
                 "Night2"
             },
             {
-                "Starlight Desert",
+                "Deserto Estelar",
                 "NightDesert"
             },
             {
-                "JellyFish Field",
+                "Campo das Águas-Vivas",
                 "NightDesert_Beach"
             },
             {
-                "Jar Cave",
+                "Caverna do Jarro",
                 "Night_JarCave"
             },
             {
-                "Krill Desert",
+                "Deserto dos Dragões",
                 "Night_InfiniteDesert"
             },
             {
-                "Planets",
+                "Planetas",
                 "NightDesert_Planets"
             },
             {
-                "Halloween Cave",
+                "Caverna do Halloween",
                 "Event_DaysOfMischief"
             },
             {
-                "Office",
+                "Escritório da TGC",
                 "TGCOffice"
             },
             {
-                "Thunder",
+                "Sala do Templo",
                 "NightEnd"
             }
         },
@@ -7391,35 +7391,35 @@ world = {
         "[🌋]","Olho do Éden",
         content = {
             {
-                "Storm Gate",
+                "Portal do Éden",
                 "StormStart"
             },
             {
-                "Krills Field",
+                "Campo dos Dragões",
                 "Storm"
             },
             {
-                "Sacrifice",
+                "Sacrificio",
                 "StormEnd"
             },
             {
-                "Rebirth",
+                "Renascimento",
                 "OrbitMid"
             },
             {
-                "Ancestors Galaxy",
+                "Galáxia dos Ancestrais",
                 "OrbitEnd"
             },
             {
-                "Heavin",
+                "Órbita",
                 "CandleSpaceEnd"
             },
             {
-                "Credits",
+                "Créditos Finais",
                 "Credits"
             },
             {
-                "Season of Shattering",
+                "Temporada do Despedaçar",
                 "StormEvent_VoidSpace"
             },
         },
