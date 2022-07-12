@@ -6528,7 +6528,7 @@ yellow = {
 }
 magics = {
     {
-        "[👖]","Feitoços de Calças",
+        "[👖]","Feitiços de Calças",
         content = {
             {
                 "Sword", 
