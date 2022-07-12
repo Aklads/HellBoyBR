@@ -6420,107 +6420,107 @@ scrSoul = {
   end
 yellow = {
     {
-        "[🌀]Teleport",
+        "[🌀]Teletransporte",
         content = {
-            "[🌀]Magic Teleport",
-            "[💾]Saved Locations",
-            "[⬆️]Goto Map",
-            "[🧭]Out Of Borders",
-            "[⬆️]Breach Walls",
-            "[↗️]Breach Roofs",
-            "[⬇️]Breach Grounds",
-            "[📝]Manual Coordinates",
-            "[🗄]Copy coordinate",
-            "[📌]Pin Position",
-            "[📌]Pin Y Coordinate",
+            "[🌀]Teletransporte mágico",
+            "[💾]Localizações salvas",
+            "[⬆️]Mudar área",
+            "[🧭]O.O.B.",
+            "[⬆️]Atravessar",
+            "[↗️]Atravessar pra cima",
+            "[⬇️]Atravessar pra baixo",
+            "[📝]Coordenadas manuais",
+            "[🗄]Copiar coordenadas",
+            "[📌]Fixar posição",
+            "[📌]Fixar posição Y",
         }, 
     },
     {
         "[🏃🏻‍♂️] Run",
         content = {
-            "[🕯]Auto Candle Run",
-            "[⭐]Auto Star Run",
-            "[🕯]Semi Candle Run",
-            "[⭐]Semi Star Run",
-            "[🔖]Unlock Seasonal Quests",
+            "[🕯]Auto-farm de velas",
+            "[⭐]Auto-farm de aladas",
+            "[🕯]Farm-manual de velas",
+            "[⭐]Farm-manual de aladas",
+            "[🔖]Desbloquear missões sazonais",
         },
     },
     {
-        "[🔥]Burn",
+        "[🔥]Incendiar",
     },
     {
-        "[🀄️]Absorb All",
+        "[🀄️]Absorver tudo",
     },
     {
-        "[🌕]Wing Charge",
+        "[🌕]Capa infinita",
     },
     {
-        "‍[️🧙]️Magic",
+        "‍[️🧙]️Magias",
         content = {
-            "[🔮]No Sparkles spells",
-            "[✨]Sparkle spells",
-            "[🔁]Auto Capes",
-            "[❌]Remove All",
+            "[🔮]Sem brilhos",
+            "[✨]Com brilhos",
+            "[🔁]Capas aleatórias",
+            "[❌]Remover tudo",
         },
     },
     {
-        "[🦚]Wing",
+        "[🦚]Capas",
         content = {
-            "[🌟]Wing Count",
-            "[🃏]Cape Trick",
-            "[🚀]Fast Flap",
+            "[🌟]Contagem de aladas",
+            "[🃏]Capa mágica",
+            "[🚀]Batidas rápidas",
         }
     },
     {
         "[🔫]Trolls",
         content = {
-            "[🧨]Force Light",
-            "[✨]Spam Magic",
+            "[🧨]Forçar vela",
+            "[✨]Redemoinho mágico",
         },                                     
     },
     {
-        "[🎒]Props",
+        "[🎒]Acessórios",
         content = {
-            "[👖]Pants",
-            "[🎭]Masks",
-            "[👱]️Hairs",
-            "[🎀]Head accessories",
-            "[🦚]Capes",
-            "[🎒]Props",
-            "[🎗]Necklaces",
+            "[👖]Calças",
+            "[🎭]Mascaras",
+            "[👱]️Cabelos",
+            "[🎀]Acessórios de cabeça",
+            "[🦚]Capas",
+            "[🎒]Acessórios",
+            "[🎗]Colares",
         },                                        
     },
     {
-        "[🗃]Mode Menu",
+        "[🗃]Mod Menu",
         content = {
-            "[🎥]Record Shared Memory",
-            "[🧸]Icons & Borders Size",
-            "[📸]ScreenShot Resolution",
-            "[⏲]Game Speed",
-            "[☁️]Remove Clouds",
-            "[💨]Remove Wind[Method 1]",
-            "[💨]Remove Wind[Method 2]",
-            "[📣]Calls 'Client side'",
-            "[🌁]Valley Filter",
-            "[🏁]Running Enhancement",
-            "[🏃🏻‍♂️]Delayed Effect",
+            "[🎥]Gravar memória compartilhada",
+            "[🧸]Icones e Bordas",
+            "[📸]Resolução de captura de tela",
+            "[⏲]Velocidade de jogo",
+            "[☁️]Remover nuvens",
+            "[💨]Remover vento[Método 1]",
+            "[💨]Remover vento[Método 2]",
+            "[📣]Gritos 'visual'",
+            "[🌁]Filtros Vale do Triunfo",
+            "[🏁]Encantamento de corrida",
+            "[🏃🏻‍♂️]Efeito de atraso",
         },  
     },
     {
-        "[🧺]Show Closet",
+        "[🧺]Guarda-roupa",
         content = {
-            "[👖]Pants",
-            "[🎭]Masks",
-            "[👱]️Hairs",
-            "[🦚]Capes",
-            "[🎒]Props",
+            "[👖]Calças",
+            "[🎭]Mascaras",
+            "[👱]️Cabelos",
+            "[🦚]Capas",
+            "[🎒]Acessórios",
         },                                     
     },
   --  {
   --      "[📥]Commands",
   --  },
     {
-        "[⚙]Settings",
+        "[⚙]Configurações",
         content = {
 
         }
@@ -6528,7 +6528,7 @@ yellow = {
 }
 magics = {
     {
-        "[👖]","Pants Spells",
+        "[👖]","Feitoços de Calças",
         content = {
             {
                 "Sword", 
@@ -8187,7 +8187,7 @@ function wingmode()
                     }
                     gg.setValues(uu)
                 else
-                    gg.toast('Please put numbers only')
+                    gg.toast('Por favor, coloque apenas números')
                 end
             end
         elseif tear == eye[2] then
@@ -8216,14 +8216,14 @@ function settings()
     elseif tear == eye[1] then
         configs.awrob = kj.toggler(configs.awrob)
     elseif tear == eye[2] then
-        tear = gg.prompt({"Choose the distance for Breach:"}, {7}, {'number'})
+        tear = gg.prompt({"Escolha a distância de teleporte:"}, {7}, {'number'})
         if tear ~= nil then
             tear[1] = tonumber(tear[1])
             if type(tear[1]) == 'number' then
                 configs.bdis = tear[1]
                 saveconfigs()
             else
-                gg.toast('Please put numbers only')
+                gg.toast('Por favor, coloque apenas números')
             end
         end
     elseif tear == eye[3] then
@@ -8308,7 +8308,7 @@ function coordinater(rspType)
         tear = gg.prompt({'Specifiy coordinates in form: {X ; Y ; Z}'}, {xyz}, {'number'})
         if tear ~= nil then
             if not pcall(teleport, assert(load("return " .. tear[1]))()) then
-                gg.toast("Please type properly")
+                gg.toast("Por favor, digite corretamente")
             end
         end
     elseif rspType == 'freeze' then
@@ -8384,7 +8384,7 @@ function opencloset(closet)
             })
         gg.sleep(100)
         if not pcall(gg.setValues, temp) then
-            gg.toast("Please type properly")
+            gg.toast("Por favor, digite corretamente")
         else
             local temp = {
                 {
@@ -8464,7 +8464,7 @@ function modemenu()
     STAY = 'modemenu'
     getSkidLocat()
     c_hw = '\t' .. kj.removePoint(kj.getValue(guiptr + gptoffsets.scrres, 'F')) .. '::' .. kj.removePoint(kj.getValue(guiptr + gptoffsets.scrres + 4, 'F'))
-    yellow[10].content[3] = "[📸]ScreenShot Resolution" .. c_hw
+    yellow[10].content[3] = "[📸]Resolução de captura de tela" .. c_hw
     tear = gg.choice(yellow[10].content, nil, header)
     if tear ~= nil then
         if tear == #yellow[10].content then 
@@ -8482,23 +8482,23 @@ function modemenu()
         elseif tear == eye[6] then 
             kj.switch(bootloader + liboffsets.winds, '505873376 D', '1847778369 D', "Removing Wind" )
         elseif tear == eye[7] then
-            rwind() gg.toast('Wind Removed')
+            rwind() gg.toast('Vento removido')
         elseif tear == eye[8] then
             temp = {}
             for i, v in ipairs(shout) do
                 table.insert(temp, i .. '. ' .. '[📣]' .. v[1] )
             end table.insert(temp, back[1])
-            tear = gg.choice(temp, nil, 'This replaces the Default Call')
+            tear = gg.choice(temp, nil, 'Isso substitui o grito padrão')
             if tear == #temp then
                 modemenu()
             elseif tear ~= nil then 
                 kj.setString(bootloader + liboffsets.honksound, '.' .. shout[tear][2], 19)
-                gg.toast(shout[tear][1] .. ' is the default call now')
+                gg.toast(shout[tear][1] .. ' é o grito padrão agora')
             end
         elseif tear == eye[9] then
             sunsetfilter()
         elseif tear == eye[10] then
-            tear = gg.prompt({"Choose Running Speed:"}, {3.5}, {'number'})
+            tear = gg.prompt({"Escolha a velocidade de corrida:"}, {3.5}, {'number'})
             if tear ~= nil then
                 tear[1] = tonumber(tear[1])
                 if type(tear[1]) == 'number' then
@@ -8511,7 +8511,7 @@ function modemenu()
                     }
                     gg.setValues(uu)
                 else
-                    gg.toast('Please put numbers only')
+                    gg.toast('Por favor, coloque apenas números')
                 end
             end
         elseif tear == eye[11] then
@@ -8532,9 +8532,9 @@ function sunsetfilter()
     end
     val = kj.getValue(offsets[3] + 16, 'D')
     vfilters = {
-        'Dark Effect',
-        'Red Effect',
-        'White Effect',
+        'Efeito escuro',
+        'Efeito vermelho',
+        'Efeito branco',
     }
     local temp = {}
     for i, v in ipairs(vfilters) do
@@ -8573,7 +8573,7 @@ function rwind()
 end
 function setIconSize(size)
     if size == nil then
-        tear = gg.prompt({'[🧸]Set icons size: Default is 1'}, {1}, {'number'}) 
+        tear = gg.prompt({'[🧸]Defina o tamanho dos ícones: o padrão é 1'}, {1}, {'number'}) 
         if tear ~= nil then
             size = tear[1]
         end
@@ -8585,13 +8585,13 @@ function setIconSize(size)
             value = size,
         }
         if not pcall(gg.setValues, {uu}) then
-            gg.toast("Please type properly")
+            gg.toast("Por favor, digite corretamente")
         end
     end
 end
 function setspeed(speed)
     if speed == nil then
-        tear = gg.prompt({'[⏲]Set Game Speed'}, {1}, {'number'})
+        tear = gg.prompt({'[⏲]Defina a velocidade de jogo'}, {1}, {'number'})
         if tear ~= nil then
             speed = tear[1]
         end
@@ -8603,7 +8603,7 @@ function setspeed(speed)
             value = speed,
         }
         if not pcall(gg.setValues, {uu}) then
-            gg.toast("Please type properly")
+            gg.toast("Por favor, digite corretamente")
         end
     end
 end
@@ -8796,7 +8796,7 @@ function sres()
     local srsG = gg
     def_width = kj.removePoint(kj.getValue(guiptr + gptoffsets.scrres + 1656, 'F'))
     def_height = kj.removePoint(kj.getValue(guiptr + gptoffsets.scrres + 1660, 'F'))
-    tear = srsG.prompt({'[📸]Set screenshot resulotion\nChanging the graphics resets it\nWidth:', 'Height:'}, {def_width, def_height}, {'number', 'number'})
+    tear = srsG.prompt({'[📸]Defina a resolução de captura de tela\nAlterar os gráficos retornará para\nLargura:', 'Altura:'}, {def_width, def_height}, {'number', 'number'})
     if tear ~= nil then
         local uu = {
             {
@@ -8804,18 +8804,18 @@ function sres()
                 flags = gg.TYPE_FLOAT,
                 freeze = true,
                 value = tear[1],
-                name = 'screenshot width',
+                name = 'Largura da captura de tela',
             },
             {
                 address = guiptr + gptoffsets.scrres + 4,
                 flags = gg.TYPE_FLOAT,
                 freeze = true,
                 value = tear[2],
-                name = 'screenshot height',
+                name = 'Altura da captura de tela',
             },
         }
         if not pcall(srsG.setValues, uu) then
-            gg.toast("Please type properly")
+            gg.toast("Por favor, digite corretamente")
         end
     end
 end
@@ -8850,7 +8850,7 @@ function magic()
     sMagics.type = {} 
     local gXG = gg 
     STAY = 'magic'
-    tear = gg.choice(yellow[6].content, nil, "‍[️🧙]️Magic: Only three are visible at a time")
+    tear = gg.choice(yellow[6].content, nil, "‍[️🧙]️Magias: apenas três são visíveis por vez")
     if tear == #yellow[6].content then yellowTears()
     elseif tear == #yellow[6].content - 2 then 
         capeauto = kj.toggler(capeauto)
@@ -8875,14 +8875,14 @@ function magic()
                 end
             end
             if sMagics.sign[i] == nil then
-                sMagics.sign[i] = "   None"
+                sMagics.sign[i] = "   Não selecionado"
             end
             if i < 10 then o = 0 else o = '' end
-            msocket[i] = "[🔮]Spell [" .. o .. i .. "]: " .. sMagics.sign[i]
+            msocket[i] = "[🔮]Feitiço [" .. o .. i .. "]: " .. sMagics.sign[i]
         end
-        table.insert(msocket, "[❌]Remove All")
+        table.insert(msocket, "[❌]Remover todos")
         table.insert(msocket, back[1])
-        tear = gXG.choice(msocket, nil, "‍[️🧙]️Magic: Only three are visible at a time")
+        tear = gXG.choice(msocket, nil, "‍[️🧙]️Magias: apenas três são visíveis por vez")
         if tear == eye[sockets + eye[1]] then
             for d = 1, 3 do
                 for i, v in ipairs(msocket) do
@@ -9359,7 +9359,7 @@ function tpmortal()
         do
           do
             realms = {}
-            table.insert(realms, "1 . [🏠]Home")
+            table.insert(realms, "1 . [🏠]Lar")
             for i, v in ipairs(world) do
                 table.insert(realms, i + 1 .. ". " .. v[1] .. v[2])
             end
@@ -9367,7 +9367,7 @@ function tpmortal()
         end
            do
              do
-                table.insert(realms, 1, "[🔄]Refresh The Map")
+                table.insert(realms, 1, "[🔄]Atualizar mapa")
                 if STAY  ~= 'runChoice' then
                     table.insert(realms, back[1])
                 end
@@ -9417,7 +9417,7 @@ end
 function acrholder()
     if gg.isVisible(true) then
         gg.setVisible(false)
-        tear = gg.choice({'[▶️]Resume Runnung', '[⏸]Pause Running', '[⏹]Stop Running'})
+        tear = gg.choice({'[▶️]Continuar', '[⏸]Pausar', '[⏹]Parar'})
         if tear == eye[1] then
             return
         elseif tear == eye[2] then
@@ -9439,7 +9439,7 @@ function autoCr()
     if signs.wcharge == "" then
         wcharge()
     end
-    gg.toast('Click on the GG icon to stop')
+    gg.toast('Clique no ícone GG para parar')
     kj.setValue(bootloader + liboffsets.absorb, '506892288 D')
     kj.setValue(bootloader + liboffsets.mabsorb, '999999 F')
     absorbWax()
@@ -9647,10 +9647,10 @@ function kjCommands()
     end
 end
 stl1 = "To "
-SPLine = [[------------------------------[⬆️]GOTO[⬆️]------------------------------]]
+SPLine = [[------------------------------[⬆️]IR PARA[⬆️]------------------------------]]
 log_notFound = [[
-    Something went wrong! Please wait for
-    the game to load or restart the game.
+    Algo deu errado! Por favor espere por
+     o jogo para carregar ou reiniciar o jogo.
 ]]
 print[[
     🪐╭╮╭━╮
@@ -9661,7 +9661,8 @@ print[[
     ☄️╰╯╰━┻┻━━╯┃┣━━┻━━┻╯╰╯
     🪐╱╱╱╱╱╱╱╱╭╯┃
     ☄️╱╱╱╱╱╱╱╱╰━╯
-            ]]
+            
+    Translation by: Aklads#1082]]
 function offseter()
     bootloader = gg.getRangesList("libBootloader.so")[1].start
     anptr = kj.getValue(bootloader + liboffsets.libanptr, 'Q')
@@ -9733,10 +9734,10 @@ function version_check()
             distances = ldistances
             liboffsets = lliboffsets
         elseif version > sky.live.version then
-            gg.alert("Sky version mismatch\nUpdate your game")
+            gg.alert("Versão do Sky incompatível\nAtualize o seu jogo.")
             os.exit()
         elseif version < sky.live.version then
-            gg.alert("Sky version mismatch\nWait for the script to be updated")
+            gg.alert("Versão do Sky incompatível\nAguarde a atualização do script.")
             os.exit()
         end
     elseif package == sky.beta.package then
@@ -9748,14 +9749,14 @@ function version_check()
             distances = bdistances
             liboffsets = bliboffsets
         elseif version > sky.beta.version then
-            gg.alert("Sky version mismatch\nUpdate your game")
+            gg.alert("Versão do Sky incompatível\nAtualize o seu jogo.")
             os.exit()
         elseif version < sky.beta.version then
-            gg.alert("Sky version mismatch\nWait for the script to be updated")
+            gg.alert("Versão do Sky incompatível\nAguarde a atualização do script.")
             os.exit()
         end
     else
-        gg.alert("Sky package mismatch\nSelect the right process")
+        gg.alert("Processo do Sky não identificado\nSelecione o processo correto.")
         os.exit()
     end
 end
