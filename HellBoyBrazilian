@@ -6531,21 +6531,21 @@ magics = {
         "[👖]","Feitiços de Calças",
         content = {
             {
-                "Sword", 
+                "Pequeno Principe", 
                 -495233219
             },
             {
-                "Witch Body", 
+                "Vestido de Bruxa", 
                 969946279
             },
             {
-                "Rainbow",
+                "Arco-iris",
                 1482655023
             },
         },
     },
     {
-        "[🎭]","Masks Spells",
+        "[🎭]","Feitiços de Máscaras",
         content = {
             {
                 "Weasel", 
@@ -6590,7 +6590,7 @@ magics = {
         },
     },
     {
-        "[👱]️","Head Spells",
+        "[👱]️","Feitiços de Cabeça",
         content = {
             {
                 "Rainbow Flower", 
@@ -6731,7 +6731,7 @@ magics = {
         },
     },
     {
-        "[🦚]","Capes Spells",
+        "[🦚]","Feitiços de Capas",
         content = {
             {
                 "Earth Day Cape", 
@@ -6836,7 +6836,7 @@ magics = {
         },
     },
     {
-        "[🎒]","Props Spells",
+        "[🎒]","Feitiços de Acessórios",
         content = {
             {
                 "Lantern", 
@@ -6946,7 +6946,7 @@ magics = {
         },
     },
     {
-        "[🔰]","Other Spells",
+        "[🔰]","Outros Feitiços",
         content = {
             {
                 "Chibi Height",
@@ -7157,36 +7157,36 @@ magics = {
 }
 world = {
     {
-        "[🏝]","Isle of Dawn",
+        "[🏝]","Ilha do Alvorecer",
         content = {
             {
-                "Isle",
+                "Ilha",
                 "Dawn"
             },
             {
-                "Prophecy Cave",
+                "Caverna da Profecia",
                 "DawnCave"
             },
             {
-                "Trial of Water",
+                "Provação da Água",
                 "Dawn_TrialsWater"
             },
             {
-                "Trial of Earth",
+                "Provação da Terra",
                 "Dawn_TrialsEarth"
             },
             {
-                "Trial of Air",
+                "Provação do Ar",
                 "Dawn_TrialsAir"
             },
             {
-                "Trial of Fire",
+                "Provação do Fogo",
                 "Dawn_TrialsFire"
             },
         },
     },
     {
-        "[⛰]","Daylight Prairie",
+        "[⛰]","Campina da Aurora",
         content = {
             {
                 "Butterfly Fields",
@@ -7220,7 +7220,7 @@ world = {
         },
     },
     {
-        "[🏕]","Hidden Forest",
+        "[🏕]","Floresta Oculta",
         content = {
             {
                 "Hidden Forest",
@@ -7257,7 +7257,7 @@ world = {
         },
     },
     {
-        "[🗻]","Valley of Triumph",
+        "[🗻]","Vale do Triunfo",
         content = {
             {
                 "Valley",
@@ -7298,7 +7298,7 @@ world = {
         },
     },
     {
-        "[🏜]","Golden Wasteland",
+        "[🏜]","Sertão Dourado",
         content = {
             {
                 "Social Space",
@@ -7339,7 +7339,7 @@ world = {
         },
     },
     {
-        "[🛕]","Vault of Knowledge",
+        "[🛕]","Relicário do Conhecimento",
         content = {
             {
                 "Vault",
@@ -7388,7 +7388,7 @@ world = {
         },
     },
     {
-        "[🌋]","Storm",
+        "[🌋]","Olho do Éden",
         content = {
             {
                 "Storm Gate",
@@ -7704,7 +7704,7 @@ function getSkidLocat()
         mapLTable[i] = string.char(mapBTable[i])
     end
     SkidLocation = table.concat(mapLTable)
-    header = "Current Map: " .. SkidLocation
+    header = "Mapa atual: " .. SkidLocation
 end
 do
  kio = {}
@@ -7787,7 +7787,7 @@ function run(type)
                         end
                         if gg.isVisible(true) then
                             gg.setVisible(false)
-                            gg.toast('Running Cancelled')
+                            gg.toast('Farm cancelado')
                             return
                         end
                     end
@@ -7798,14 +7798,14 @@ function run(type)
         for i, v in ipairs(scrSoul) do
             if scrSoul[i][1] == SkidLocation then
                 for u , d in pairs(scrSoul[i].S_Runner) do
-                    CRunG.toast("Location: " .. u .. " :: " .. #scrSoul[i].S_Runner)
+                    CRunG.toast("Localização: " .. u .. " :: " .. #scrSoul[i].S_Runner)
                     if pcall(teleport, scrSoul[i].S_Runner[u]) then
                         if u < #scrSoul[i].S_Runner then
                             gg.sleep(1500)
                         end
                         if gg.isVisible(true) then
                             gg.setVisible(false)
-                            gg.toast('Running Cancelled')
+                            gg.toast('Farm cancelado')
                             return
                         end
                     end
@@ -7816,7 +7816,7 @@ function run(type)
 end
  do
    do
-    back = {"[🔙]Back", "[👋]End" }
+    back = {"[🔙]Voltar", "[👋]Sair do Script" }
     table.insert(yellowCry, back[2])
   end
 end
@@ -7858,7 +7858,7 @@ function runType()
             if cflag == nil then 
                 yellow[2].content[3] = nil
             else
-                yellow[2].content[3] = "[🕯]Semi Candle Run"
+                yellow[2].content[3] = "[🕯]Farm-manual de velas"
             end
             for d, u in ipairs(scrSoul[i].S_Runner) do
                 if d == 1 then
@@ -7869,7 +7869,7 @@ function runType()
             if sflag == nil then 
                 yellow[2].content[4] = nil
             else
-                yellow[2].content[4] = "[⭐]Semi Star Run"
+                yellow[2].content[4] = "[⭐]Farm-manual de aladas"
                 end
             break
         end
@@ -7878,7 +7878,7 @@ function runType()
     local rnmG = gg
     tear = rnmG.choice(yellow[2].content, nil, header)
     if     tear == eye[1] then
-        docr = gg.alert('[☣️]Do you want to auto candle run?', 'Go for it', 'Never mind')
+        docr = gg.alert('[☣️]Você quer executar velas automáticas?', 'Vá em frente', 'Deixa para lá')
         if docr == 1 then
             autoCr()
         else
@@ -7909,7 +7909,7 @@ function frac()
  end dontRemove = "BY: Kiojeen"
 function hold()
     local hG = gg
-    hG.toast("Click on the GG icon to resume")
+    hG.toast("Clique no ícone GG para continuar")
     while true do 
         if hG.isVisible(true) then
             hG.setVisible(false)
@@ -7967,16 +7967,16 @@ function runChoice(rtype)
   do
     do crunMenu = {}
     crunMenu = {
-        "[🕯]Run",
-        "[🕯]Absorb wax",
-        "[💠]Absorb Fragments",
-        "[🔥]Burn"  .. signs.burn,
-        "[⬆️]Breach Walls",
-        "[🌕]Wing Charge" .. signs.wcharge,
-        "[🌀]Teleport",
-        "[📃]Coordinates List",
-        "[⭐]Semi Star Run",
-        "[🧭]Out Of Borders",}
+        "[🕯]Correr",
+        "[🕯]Absorver velas",
+        "[💠]Absorver fragmentos",
+        "[🔥]Queimar"  .. signs.burn,
+        "[⬆️]Atravessar paredes",
+        "[🌕]Energia infinita" .. signs.wcharge,
+        "[🌀]Teletransporte",
+        "[📃]Lista de coordenadas",
+        "[⭐]Farm-manual de aladas",
+        "[🧭]O.O.B.",}
         cgoto = #crunMenu + 2
         sign = {}
     end
@@ -7986,15 +7986,15 @@ do
   do
     do srunMenu = {}
     srunMenu = {
-        "[➡️]Next Location",
-        "[⬅️]Previous Location",
-        "[⭐]Run",
-        "[⬆️]Breach Walls",
-        "[🌕]Wing Charge" .. signs.wcharge,
-        "[🌀]Teleport",
-        "[📃]Coordinates List",
-        "[🕯]Semi Candle Run",
-        "[🧭]Out Of Borders",}
+        "[➡️]Próxima área",
+        "[⬅️]Área anterior",
+        "[⭐]Correr",
+        "[⬆️]Atravessar paredes",
+        "[🌕]Energia infinita" .. signs.wcharge,
+        "[🌀]Teletransporte",
+        "[📃]Lista de coordenadas",
+        "[🕯]Farm-manual de velas",
+        "[🧭]O.O.B.",}
         sgoto = #srunMenu + 2
         sign = {}
     end
@@ -8174,7 +8174,7 @@ function wingmode()
             yellowTears()
         elseif tear == eye[1] then
             wings = kj.getValue(anptr + anptroffsets.wings, 'Q')
-            tear = gg.prompt({'Set wings count: '}, {wings}, {'number'})
+            tear = gg.prompt({'Definir contagem de aladas: '}, {wings}, {'number'})
             if tear ~= nil then
                 tear[1] = tonumber(tear[1])
                 if type(tear[1]) == 'number' then
@@ -8203,14 +8203,14 @@ end
 function settings()
     STAY = 'settings'
     hbstngs = {
-        "[💨]Auto Wind Remove in OOBs: " .. kj.statSwitch(configs.awrob),
-        "[↕️]Breach distance: " .. configs.bdis,
-        "[📮]Dev Mode: " .. kj.statSwitch(configs.devmode),
-        "[🏠]Fast Return Home" .. kj.statSwitch(configs.fasthome),
-        "[🔁]Mumu User [Not fully supported]" .. kj.statSwitch(configs.mumu),
+        "[💨]Remover vento automaticamente em OOBs: " .. kj.statSwitch(configs.awrob),
+        "[↕️]Distância de atravessar paredes: " .. configs.bdis,
+        "[📮]Modo Desenvolvedor: " .. kj.statSwitch(configs.devmode),
+        "[🏠]Voltar Lar Rápido" .. kj.statSwitch(configs.fasthome),
+        "[🔁]Mumu User [Não totalmente compatível]" .. kj.statSwitch(configs.mumu),
         back[1]
     }
-    tear = gg.choice(hbstngs, nil, '[☣️]HellBoy' .. ' Settings ' .. hellboy)
+    tear = gg.choice(hbstngs, nil, '[☣️]HellBoy' .. ' configurações ' .. hellboy)
     if tear == eye[#hbstngs] then
         yellowTears()
     elseif tear == eye[1] then
@@ -8254,7 +8254,7 @@ function cmdactv()
     if noui ~= true then 
         noui = true gg.toast('Commands: [ON]')
         gg.sleep(1000) 
-        gg.toast('Type: \'-kj help\' in the chat for help')
+        gg.toast('Digite: \'-kj help\' no chat para receber ajuda')
     else 
         noui = false gg.toast('Commands: [OFF]') 
     end
@@ -8305,7 +8305,7 @@ function coordinater(rspType)
     if rspType == 'copy' then
         gg.copyText(xyz)
     elseif rspType == 'move' then
-        tear = gg.prompt({'Specifiy coordinates in form: {X ; Y ; Z}'}, {xyz}, {'number'})
+        tear = gg.prompt({'Especifique as coordenadas na forma: {X ; Y ; Z}'}, {xyz}, {'number'})
         if tear ~= nil then
             if not pcall(teleport, assert(load("return " .. tear[1]))()) then
                 gg.toast("Por favor, digite corretamente")
@@ -8404,7 +8404,7 @@ function opencloset(closet)
 end                            
 shout = {
     {
-        'Default Call', 
+        'Padrão', 
         'ShoutDefault'
     },
     {
@@ -8412,51 +8412,51 @@ shout = {
         'ShoutPrince'
     },
     {
-        'Crow Call',
+        'Corvo',
         'ShoutCrow'
     },
     {
-        'Turtle Call',
+        'Tartaruga',
         'ShoutTurtle'
     },
     {
-        'Kizuna Call',
+        'Kizuna',
         'ShoutAi'
     },
     {
-        'Baby Manta',
+        'Bebê Manta',
         'ShoutMantaBaby'
     },
     {
-        'Small Manta',
+        'Manta menor',
         'ShoutMantaSmall',
     },
     {
-        'Big Manta',
+        'Manta adulta',
         'ShoutMantaBig'
     },
     {
-        'Double Manta',
+        'Manta Dupla',
         'ShoutMantaDouble'
     },
     {
-        'Krill Shout',
+        'Dragão Sombrio',
         'ShoutDuskCreature'
     },
     {
-        'Anonymous Call',
+        'Anônimo',
         'ShoutShade'
     },
     {
-        'Anonymous Call 2',
+        'Anônimo 2',
         'ShoutShadeRemote'
     },
     {
-        'Fragment Sound',
+        'Fragmentos',
         'ShoutFragment'
     },
     {
-        'Small Fish Call',
+        'Peixe Pequeno',
         'ShoutSmallFish'
     },
 }
