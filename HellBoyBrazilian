@@ -26,6 +26,8 @@
     ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱     ┃┃--╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱--┃┃     ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱
     ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱     ╰╯                                ╰╯     ╱╱╱╱╱╱╱╱╱╱╱╱╱╱╱
     ----------------------------------------------------------------------------
+    Brazilian translator: Aklads#1082 (discord)
+     ----------------------------------------------------------------------------
 ]]
 sockets = 6
 hellboy = 8065
@@ -6452,7 +6454,7 @@ yellow = {
         "[🀄️]Absorver tudo",
     },
     {
-        "[🌕]Capa infinita",
+        "[🌕]Energia infinita",
     },
     {
         "‍[️🧙]️Magias",
@@ -8665,7 +8667,7 @@ function cordlist(type)
     end
 end
 function burner()
-    signs.burn = kj.switch(bootloader + liboffsets.candles, '-721215457 D', '872415464 D', 'Incendiando')
+    signs.burn = kj.switch(bootloader + liboffsets.candles, '-721215457 D', '872415464 D', 'Incendiar')
     if kj.isFrozen(flowers[32].address) then
         if configs.mumu then
             gg.removeListItems(candles)
