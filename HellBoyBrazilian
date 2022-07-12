@@ -6436,7 +6436,7 @@ yellow = {
         }, 
     },
     {
-        "[🏃🏻‍♂️] Run",
+        "[🏃🏻‍♂️] Farm de Velas",
         content = {
             "[🕯]Auto-farm de velas",
             "[⭐]Auto-farm de aladas",
