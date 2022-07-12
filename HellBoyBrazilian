@@ -9662,7 +9662,7 @@ print[[
     🪐╱╱╱╱╱╱╱╱╭╯┃
     ☄️╱╱╱╱╱╱╱╱╰━╯
             
-    Translation by: Aklads#1082]]
+    🇧🇷 Translation by: Aklads#1082]]
 function offseter()
     bootloader = gg.getRangesList("libBootloader.so")[1].start
     anptr = kj.getValue(bootloader + liboffsets.libanptr, 'Q')
