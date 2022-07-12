@@ -218,8 +218,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Isle of Dawn",
-                "Daylight Prairie",
+                "Ilha do Alvorecer",
+                "Campina da Aurora",
                 "Hidden Forest",
                 "Valley of Thriumph",
                 "Golden Wasteland",
@@ -8246,7 +8246,7 @@ function settings()
         configs.mumu = kj.toggler(configs.mumu)
         saveconfigs()
         if configs.mumu then
-            gg.toast('Too bad')
+            gg.toast('Que pena')
         end
     end
 end
@@ -8295,7 +8295,7 @@ function tpmenu()
     elseif tear == eye[10] then 
         coordinater('freeze')
     elseif tear == eye[11] then 
-        kj.freezeSwitch(anptr + anptroffsets.ypos, tostring(getPosition()[2]) .. 'F', 'Freezing Y Coordinate')
+        kj.freezeSwitch(anptr + anptroffsets.ypos, tostring(getPosition()[2]) .. 'F', 'Congelando coordenada Y')
     end
 end
 function coordinater(rspType)
@@ -8328,7 +8328,7 @@ function coordinater(rspType)
                 flags = kj.dT('F'),
                 value = getPosition()[3]
             },
-        },'Pin Position')
+        },'Fixando posição')
     end
 end
 function gotoMap()
@@ -8515,7 +8515,7 @@ function modemenu()
                 end
             end
         elseif tear == eye[11] then
-            kj.switch(bootloader + liboffsets.pdelay, '1384120352 D', '872416009 D', 'Delay Effect')
+            kj.switch(bootloader + liboffsets.pdelay, '1384120352 D', '872416009 D', 'Efeito delay')
         end
     end
 end
@@ -8644,7 +8644,7 @@ function cordlist(type)
                 for d, u in ipairs(scrSoul[menu].S_Runner) do
                     if d < 10 then b = 0 else b = "" end
                         if sign[d] == eye[900] then sign[d] = "" elseif sign[d] == 1 then sign[d] = "✳️" end
-                        cordls[d] = "- Star Location: " .. "-[ " .. b .. d .. " ]-" .. sign[d]
+                        cordls[d] = "- Localização alada: " .. "-[ " .. b .. d .. " ]-" .. sign[d]
                         z = d
                     end
                 break
@@ -8665,7 +8665,7 @@ function cordlist(type)
     end
 end
 function burner()
-    signs.burn = kj.switch(bootloader + liboffsets.candles, '-721215457 D', '872415464 D', 'Burning')
+    signs.burn = kj.switch(bootloader + liboffsets.candles, '-721215457 D', '872415464 D', 'Incendiando')
     if kj.isFrozen(flowers[32].address) then
         if configs.mumu then
             gg.removeListItems(candles)
@@ -8683,7 +8683,7 @@ end
 function wcharge()
  do
    do
-    signs.wcharge = kj.freezeSwitch(anptr + anptroffsets.wcharge, '14 F', 'Wing Charge')
+    signs.wcharge = kj.freezeSwitch(anptr + anptroffsets.wcharge, '14 F', 'Energia infinita')
     kj.switch(bootloader + liboffsets.wcharge, '505729024 D', '505571328 D')
    end
  end
@@ -8736,8 +8736,8 @@ function oobls(bto)
     miniOOB = {}
         do
           do
-            table.insert(miniOOB, 1, "[💾]Save Current Possition")
-            table.insert(miniOOB, 2, "[🏃🏻‍♂️]Goto Saved Possition")
+            table.insert(miniOOB, 1, "[💾]Salvar possição atual")
+            table.insert(miniOOB, 2, "[🏃🏻‍♂️]Ir para posição salva")
             if SkidLock == nil then
                 SkidLock = SkidLocation
             end
@@ -8979,16 +8979,16 @@ function savelocat()
         table.insert(cord, v.cord)
         table.insert(remove, i .. '. ' .. v.map .. ': ' .. v.name)
     end
-    table.insert(name, 1, "[📥]Add this location")
-    table.insert(name, 2, "[❌]Remove a location")
+    table.insert(name, 1, "[📥]Adicionar essa localização")
+    table.insert(name, 2, "[❌]Remover localização")
     table.insert(name, #name + 1, back[1])
     tear = gg.choice(name, nil, header)
     if tear ==  #name then 
         tpmenu()
     elseif tear == eye[1] then
         local temp = {}
-        local userinput = 'Location: ' .. #remove + 1
-        tear = gg.prompt({'[📥]Put a name:'}, {userinput}, {'text'})
+        local userinput = 'Localização: ' .. #remove + 1
+        tear = gg.prompt({'[📥]Escolha um nome:'}, {userinput}, {'text'})
         if tear ~= nil then
             userinput = tear[1]
         end
@@ -9053,33 +9053,33 @@ function modQuest(bool)
                     v.value = 0
                 end
                 gg.setValues(gquests)
-                gg.toast('Unlock Quests: ON')
+                gg.toast('Desbloquear missões sazonais: ON')
             else
                 for i, v in ipairs(gquests) do
                     v.value = 7037807
                 end
                 gg.setValues(gquests)
-                gg.toast('Unlock Quests: OFF')
+                gg.toast('Desbloquear missões sazonais: OFF')
             end
         elseif not getQuests() then
-            gg.toast('Failed')
+            gg.toast('Erro')
             return
         end 
       end
     end     
     elseif not getQuests() then
-    gg.toast('Failed')
+    gg.toast('Erro')
     return
   end 
 end
 function trolls()
     STAY = 'trolls'
-    tear = gg.choice(yellow[8].content, nil, "Be careful")
+    tear = gg.choice(yellow[8].content, nil, "Tome cuidado!")
     if tear == eye[1] then
-        kj.groupFreezeSwitch(showCandle, "Force Candles")
+        kj.groupFreezeSwitch(showCandle, "Forçar velas")
     elseif tear == eye[2] then
         setspell(-1463943689, 1)
-        kj.freezeSwitch(anptr + anptroffsets.magic + 40, '0 D', "Spamming Magic")
+        kj.freezeSwitch(anptr + anptroffsets.magic + 40, '0 D', "Redemoinho de feitiços")
     elseif tear == #yellow[8].content then 
         yellowTears()
     end
@@ -9646,7 +9646,7 @@ function kjCommands()
         end
     end
 end
-stl1 = "To "
+stl1 = "Para "
 SPLine = [[------------------------------[⬆️]IR PARA[⬆️]------------------------------]]
 log_notFound = [[
     Algo deu errado! Por favor espere por
@@ -9727,7 +9727,7 @@ function version_check()
     version = gg.getTargetInfo().versionCode
     if package == sky.live.package then
         hellboy = "-[" .. debug.getinfo(launch).lastlinedefined + 1 .. "]-"
-        gg.toast('[Live]HellBoy\t' .. hellboy)
+        gg.toast('🇧🇷 [Live]HellBoy\t' .. hellboy)
         if version == sky.live.version then
             anptroffsets = lanptroffsets
             gptoffsets = lgptoffsets
@@ -9742,7 +9742,7 @@ function version_check()
         end
     elseif package == sky.beta.package then
         hellboy = "-[" .. debug.getinfo(launch).lastlinedefined + 1 .. "]-"
-        gg.toast('[Beta]HellBoy\t' .. hellboy)
+        gg.toast('🇧🇷 [Beta]HellBoy\t' .. hellboy)
         if version == sky.beta.version then
             anptroffsets = banptroffsets
             gptoffsets = bgptoffsets
