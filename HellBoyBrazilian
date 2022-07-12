@@ -220,11 +220,11 @@ scrSoul = {
             Map_Goto_Name = {
                 "Ilha do Alvorecer",
                 "Campina da Aurora",
-                "Hidden Forest",
-                "Valley of Thriumph",
-                "Golden Wasteland",
-                "Vault of Knowledge",
-                "Storm",
+                "Floresta Oculta",
+                "Vale do Triunfo",
+                "Sertão Dourado",
+                "Relicário do Conhecimento",
+                "Olho do Éden",
             },
             Map_Goto_Cord = {
                 {
@@ -266,8 +266,8 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "BlackRoom",
-                "Respawn",
+                "Sala Escura",
+                "Inicio",
             },
             OOB_Goto_Cord = {
                 {
@@ -419,10 +419,10 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Prophecy Cave",
-                "Cloudy Mountain",
-                "Isle's Temple",
-                "Daylight Prairie",
+                "Caverna da Profecia",
+                "Montanha",
+                "Templo",
+                "Campina da Aurora",
             },
             Map_Goto_Cord = {         
                 {
@@ -449,8 +449,8 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Elder Room",
-                "Rainbow",
+                "Sala do Ancião",
+                "Ponte arco-iris",
             },
             OOB_Goto_Cord = {
                 {
@@ -507,13 +507,13 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Prophecy Guide",
-                "Trial of Water",
-                "Trial of Earth",
-                "Trial of Air",
-                "Trial of Fire",
-                "Isle of Dawn",
-                "Wind Pathes",
+                "Guia da Profecia",
+                "Provação da Água",
+                "Provação da Terra",
+                "Provação do Ar",
+                "Provação do Fogo",
+                "Ilha do Alvorecer",
+                "Trilhas do Vento",
             },
             Map_Goto_Cord = {
                 {
@@ -607,8 +607,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-            "Trial Start",
-            "Trial End",
+            "Inicio",
+            "Meditação",
             },
             Map_Goto_Cord = {
                 {
@@ -707,8 +707,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Trial Start",
-                "Trial End",
+                "Inicio",
+                "Meditação",
             },
             Map_Goto_Cord = {
                 {
@@ -767,8 +767,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Trial Start",
-                "Trial End",
+                "Inicio",
+                "Meditação",
             },
             Map_Goto_Cord = {
                 {
@@ -817,8 +817,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Trial Start",
-                "Trial End",
+                "Inicio",
+                "Meditação",
             },
             Map_Goto_Cord = {
                 {
@@ -972,10 +972,10 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Prairie's Social Space",
-                "Prairie's Cave",
-                "Prairie's Nest",
-                "Prairie's Village",
+                "Espaço Social",
+                "Caverna",
+                "Ninho de Pássaros",
+                "Vilarejo dos Sinos",
             },
             Map_Goto_Cord = {
                 {
@@ -1164,11 +1164,11 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Prairie's Temple",
-                "Prairie's Cave",
-                "8 Players Door",
-                "Prairie's Bird Nest",
-                "Butterfly Field",
+                "Templo",
+                "Caverna",
+                "Elevador de 8 jogadores",
+                "Ninho de Pássaros",
+                "Campo de Borboletas",
             },
             Map_Goto_Cord = {
                 {
@@ -1200,7 +1200,7 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Invisible Boat",
+                "Barco Invisivel",
             },
             OOB_Goto_Cord = {
                 {
@@ -1286,8 +1286,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Prairie's Village",
-                "Oreo Dog",
+                "Vilarejo dos Sinos",
+                "Cachorro Oreo",
             },
             Map_Goto_Cord = {
                 {
@@ -1402,8 +1402,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Prairie's Village",
-                "Butterfly Field",
+                "Vilarejo dos Sinos",
+                "Campo de Borboletas",
             },
             Map_Goto_Cord = {
                 {
@@ -1420,7 +1420,7 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Green OOB",
+                "Campo Verde",
             },
             OOB_Goto_Cord = {
                 {
@@ -1527,9 +1527,9 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Sanctuary Islands",
-                "Prairie's Village",
-                "Butterfly Field",
+                "Ilha do Santuário",
+                "Vilarejo dos Sinos",
+                "Campo de Borboletas",
             },
             Map_Goto_Cord = {
                 {
@@ -1738,10 +1738,10 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Prairie's Bird Nest",
-                "Cloudy Falls",
-                "Turtule's Island",
-                "Wind Pathes",
+                "Ninho de Pássaros",
+                "Cachoreira das Nuvens",
+                "Ilha da Tartaruga",
+                "Trilhas do Vento",
             },
             Map_Goto_Cord = {
                 {
@@ -1816,8 +1816,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Prairie's Village",
-                "Hidden Forest",
+                "Vilarejo dos Sinos",
+                "Floresta Oculta",
             },
             Map_Goto_Cord = {
                 {
@@ -1834,8 +1834,8 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Elder Room",
-                "Forest Ruins",
+                "Sala do Ancião",
+                "Ruinas da Floresta",
             },
             OOB_Goto_Cord = {
                 {
