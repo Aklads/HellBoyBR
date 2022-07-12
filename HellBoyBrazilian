@@ -9270,13 +9270,13 @@ function absorbFrags()
 end
 function abswaxpro()
     kj.switch(bootloader + liboffsets.absorb, '506892288 D','1847647232 D')
-    kj.switch(bootloader + liboffsets.mabsorb, '999999 F','3.5 D')
+    kj.switch(bootloader + liboffsets.mabsorb, '999999 F','3.5 F')
     if configs.mumu then
         absorbWax()
     end
     gg.sleep(1000)
     kj.switch(bootloader + liboffsets.absorb, '506892288 D','1847647232 D')
-    kj.switch(bootloader + liboffsets.mabsorb, '999999 F','3.5 D')
+    kj.switch(bootloader + liboffsets.mabsorb, '999999 F','3.5 F')
 end
 function absorbWax()
     if signs.burn == "" then burner() gg.sleep(500) end
