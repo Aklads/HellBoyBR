@@ -6550,15 +6550,15 @@ magics = {
         "[🎭]","Feitiços de Máscaras",
         content = {
             {
-                "Weasel", 
+                "Gatinho", 
                 784922793
             },
             {
-                "Fox", 
+                "Raposa", 
                 964659005
             },
             {
-                "Rhythm Actor", 
+                "Ator de Ritmo", 
                 -218615327
             },
             {
@@ -6566,27 +6566,27 @@ magics = {
                 -849020465
             },
             {
-                "Rose", 
+                "Rosa", 
                 -938578505
             },
             {
-                "Red Face", 
+                "Blush Vermelho", 
                 -1636163586
             },
             {
-                "Spintrick", 
+                "Truque de Spin", 
                 771982951
             },
             {
-                "Phoenix", 
+                "Fênix", 
                 144876107
             },
             {
-                "Tiger", 
+                "Tigre", 
                 475055967
             },
             {
-                "Oxygen", 
+                "Oxigênio", 
                 2857434492
             },
         },
@@ -6595,139 +6595,139 @@ magics = {
         "[👱]️","Feitiços de Cabeça",
         content = {
             {
-                "Rainbow Flower", 
+                "Flor Arco-iris", 
                 2141511649
             },
             {
-                "Double Rainbow Flower",
+                "Flor dupla arco-iris",
                 -1014212311
             },
             {
-                "Rainbow Tassel", 
+                "Mecha arco-iris", 
                 -290700605
             },
             {
-                "Coral Horns",
+                "Cifre de Corais",
                 -347711956
             },
             {
-                "Pumpkin Hat", 
+                "Chapéu de Abóbora", 
                 1046521292
             },
             {
-                "Witch Hat", 
+                "Chapéu de Bruxo", 
                 1983755432
             },
             {
-                "Lion Hood", 
+                "Gorro de Leão", 
                 2093744529
             },
             {
-                "Doublebun", 
+                "Coque Duplo", 
                 -2099997114
             },
             {
-                "Wool Hat", 
+                "Gorro de Lã", 
                 -823266018
             },
             {
-                "Blossom Hair", 
+                "Cabelo do Florescer", 
                 373243257
             },
             {
-                "Spintrick Hair", 
+                "Cabelo Truque de Spin", 
                 1059767859
             },
             {
-                "Antlers", 
+                "Cifre de Rena", 
                 1909998088
             },
             {
-                "Christmas Hat", 
+                "Gorro de Natal", 
                 -1409683913
             },
             {
-                "Leaf Tie", 
+                "Gravata de Folha", 
                 8361886
             },
             {
-                "Orange", 
+                "Laranja", 
                 -1616733323
             },
             {
-                "Hair Pin", 
+                "Pingente de Cabelo", 
                 4123817368
             },
             {
-                "Summer Hat", 
+                "Chapéu de Verão", 
                 2052387583
             },
             {
-                "Bunny", 
+                "Coelho", 
                 -848739711
             },
             {
-                "Halloween Curles", 
+                "Cachos de Halloween", 
                 116679863
             },
             {
-                "Spider Hair", 
+                "Moicano de Aranha", 
                 -1760741911
             },
             {
-                "Halloween Pumpkin", 
+                "Abóbora de Halloween", 
                 125584301
             },
             {
-                "Halloween Horn", 
+                "Chifre de Halloween", 
                 1123843208
             },
             {
-                "Witch Hat 2", 
+                "Chapéu de Bruxa 2", 
                 4219181095
             },
             {
-                "Winter Hat", 
+                "Gorro de Inverno", 
                 -2092825638
             },
             {
-                "Carp Hat", 
+                "Chapéu de Carpa", 
                 -1543558130
             },
             {
-                "Carp", 
+                "Carpa de Cabeça", 
                 551055685
             },
             {
-                "Flower Accessories", 
+                "Flor Branca", 
                 942365523
             },
             {
-                "Kizuna Ai Hair", 
+                "Cabelo Kizuna Ai", 
                 2050094531
             },
             {
-                "Snowflake",
+                "Acessório de Floco de Neve",
                 1372838509
             },
             {
-                "Summer Shell",
+                "Acessório de Concha",
                 -171149928
             },
             {
-                "Rainbow Hat",
+                "Gorro arco-iris",
                 -521490982
             },
             {
-                "Diamond Earring",
+                "Brincos de Diamante",
                 -1590289609
             },
             {
-                "Rainbow Headphones",
+                "Fones de Ouvido arco-iris",
                 -1769208928
             },
             {
-                "Sea Turtle",
+                "Tartaruga de Ombro",
                 1943995802
             },
         },
@@ -6736,103 +6736,103 @@ magics = {
         "[🦚]","Feitiços de Capas",
         content = {
             {
-                "Earth Day Cape", 
+                "Capa da Terra", 
                 2079599063
             },
             {
-                "TGC Cape", 
+                "Capa do Escritório TGC", 
                 540856305
             },
             {
-                "Bat Cape", 
+                "Capa de Morcego", 
                 625581156
             },
             {
-                "Web Cape", 
+                "Capa de Aranha", 
                 930203946
             },
             {
-                "Snowflake Cape", 
+                "Capa Floco de Neve", 
                 -784831205
             },
             {
-                "Christmas Red Cape", 
+                "Capa Vermelha de Natal", 
                 1306675982
             },
             {
-                "Christmas White Cape", 
+                "Capa Branca de Natal", 
                 1762827508
             },
             {
-                "Echantment Cape", 
+                "Capa do Encantos", 
                 -383842131
             },
             {
-                "Director Cape", 
+                "Capa do Diretor", 
                 -1623262339
             },
             {
-                "Petal Cape", 
+                "Capa de Petalas", 
                 -6043825
             },
             {
-                "Lightseekers Cape", 
+                "Capa dos Caçadores da Luz", 
                 1375571404
             },
             {
-                "Fortune Cape", 
+                "Capa da Fortuna", 
                 -445538750
             },
             {
-                "Spintrick",
+                "Capa do Truque de Spin",
                 1031127004
             },
             {
-                "Blossom Cape", 
+                "Capa da Primavera", 
                 162066154
             },
             {
-                "Ocean Cape", 
+                "Capa do Oceano", 
                 329684861
             },
             {
-                "Postman Cape", 
+                "Capa do Carteiro", 
                 -308941587
             },
             {
-                "Pheonix Cape", 
+                "Capa da Fênix", 
                 -1822337532
             },
             {
-                "Rainbow Cape", 
+                "Capa arco-iris", 
                 -195929339
             },
             {
-                "Yellow Scarf", 
+                "Cachecol do Principe", 
                 -2087661926
             },
             {
-                "Asteroid Coat", 
+                "Jaqueta do Asteroide", 
                 1402240423
             },
             {
-                "White & Gold Cape", 
+                "Capa Branca e Dourada", 
                 330655056
             },
             {
-                "Leaf Cape", 
+                "Capa de Folha", 
                 769892976
             },
             {
-                "Carp Cape", 
+                "Capa de Carpa", 
                 573237039
             },
             {
-                "Turtle Cape", 
+                "Capa da Tartaruga", 
                 -700035318
             },
             {
-                "Wisteria Cape",
+                "Capa de Glicínia",
                 -1244390069
             }
         },
@@ -6841,108 +6841,108 @@ magics = {
         "[🎒]","Feitiços de Acessórios",
         content = {
             {
-                "Lantern", 
+                "Lanterna", 
                 1319710173
             },
             {
-                "Table", 
+                "Cadeira", 
                 256924066
             },
             {
-                "Swing", 
+                "Balanço", 
                 1064080243
             },
             {
-                "Seesaw", 
+                "Gangorra", 
                 -2095749161
             },
             {
-                "Teaset", 
+                "Mesa de Chá", 
                 10058409
             },
             {
-                "Transparent Umbrella", 
+                "Guarda-chuva transparente", 
                 1167393926
             },
             {
-                "Umbrella", 
+                "Guarda-chuva", 
                 -992017029
             },
             {
-                "Summer Umbrella", 
+                "Guarda-sol de Verão", 
                 -1416755338
             },
             {
-                "Fox", 
+                "Raposa", 
                 -2057431024
             },
             {
-                "Wooden Chair", 
+                "Cadeira de Madeira", 
                 -1158710924
             },
             {
-                "Two Wooden Chairs", 
+                "Cadeira de Madeira Dupla", 
                 472595010
             },
             {
-                "Two Chairs",
+                "Cadeira de Praia",
                 -1866832203
             },
             {
-                "Broken Pipe",
+                "Cano Quebrado",
                 -1419483218
                 
             },
             {
-                "Flame Column", 
+                "Coluna de Chamas", 
                 160072902
             },
             {
-                "Recliner", 
+                "Recicliner", 
                 2428135093
             },
             {
-                "Winter Piano", 
+                "Piano de Inverno", 
                 -1202427550
             },
             {
-                "Halloween Table", 
+                "Mesa de Halloween", 
                 -797688127
             },
             {
-                "Snow Globe", 
+                "Globo de Neve", 
                 1440439821
             },
             {
-                "Boat", 
+                "Barco", 
                 303877523
             },
             {
-                "Horn", 
+                "Chifre", 
                 -359346310
             },
             {
-                "Harp", 
+                "Harpa", 
                 -1001892262
             },
             {
-                "Ultimate Harp", 
+                "Harpa Suprema", 
                 1275481440
             },
             {
-                "Tea Table", 
+                "Bule de Chá", 
                 1598845731
             },
             {
-                "TGC Guitar", 
+                "Guitarra da TGC", 
                 332997197
             },
             {
-                "Ultimate Guitar", 
+                "Violão Supremo", 
                 970364197
             },
             {
-                "Ultimate HandPan", 
+                "HandPan Supremo", 
                 454864430
             },
         },
@@ -6983,11 +6983,11 @@ magics = {
                 1860519737
             },
             {
-                "Goo Drain", 
+                "Anti Escuridão", 
                 383062578
             },
             {
-                "Drain", 
+                "Anti Chuva", 
                 -1463943689
             },
             {
@@ -6995,7 +6995,7 @@ magics = {
                 -1727483534
             },
             {
-                "Wing Gain", 
+                "Ganho de Asa", 
                 -1362469224
             },
             {
@@ -7015,7 +7015,7 @@ magics = {
                 998754260
             },
             {
-                "Golpear",
+                "👬 Briguinha",
                 2137753158
             },
             {
@@ -7079,7 +7079,7 @@ magics = {
                 -1354381164
             },
             {
-                "✨ Rastro Colorido", 
+                "🌈 Rastro Colorido", 
                 147016038
             },
             {
