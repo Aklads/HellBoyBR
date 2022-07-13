@@ -610,7 +610,7 @@ scrSoul = {
         Map_Goto = {
             Map_Goto_Name = {
             "Inicio",
-            "Meditação",
+            "Fim",
             },
             Map_Goto_Cord = {
                 {
@@ -710,7 +710,7 @@ scrSoul = {
         Map_Goto = {
             Map_Goto_Name = {
                 "Inicio",
-                "Meditação",
+                "Fim",
             },
             Map_Goto_Cord = {
                 {
@@ -770,7 +770,7 @@ scrSoul = {
         Map_Goto = {
             Map_Goto_Name = {
                 "Inicio",
-                "Meditação",
+                "Fim",
             },
             Map_Goto_Cord = {
                 {
@@ -820,7 +820,7 @@ scrSoul = {
         Map_Goto = {
             Map_Goto_Name = {
                 "Inicio",
-                "Meditação",
+                "Fim",
             },
             Map_Goto_Cord = {
                 {
@@ -1968,9 +1968,9 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Raining Forest",
-                "Wind Pathes",
-                "Assembly Base",
+                "Clareira Inicial",
+                "Trilhas do Vento",
+                "Casa da Árvore",
             },
             Map_Goto_Cord = {
                 {
@@ -2189,13 +2189,13 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Hidden Forest",
-                "Prophecy Cave",
-                "Sanctuary",
-                "Forest Cave",
-                "Yeti Park",
-                "Forgotten Ark",
-                "Starlight Desert",
+                "Floresta Oculta",
+                "Caverna da Profecia",
+                "Santuário",
+                "Caverna da Floresta",
+                "Desfiladeiro do Ieti",
+                "Arca Esquecida",
+                "Deserto da Luz Estelar",
             },
             Map_Goto_Cord = {
 
@@ -2290,11 +2290,11 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Assembly Tree",
-                "Hidden Forest",
-                "Raining Forest",
-                "Middle Forest",
-                "Middle Forest[2]",
+                "Casa da Árvore",
+                "Floresta Oculta",
+                "Clareira Inicial",
+                "Riacho da Floresta",
+                "Riacho da Floresta[2]",
             },
             Map_Goto_Cord = {
 
@@ -2484,10 +2484,10 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Forest's Shelter",
-                "Middle Forest",
-                "Assembely Base",
-                "Hidden Forest",
+                "Clareira Elevada",
+                "Riacho da Floresta",
+                "Casa da Árvore",
+                "Floresta Oculta",
             },
             Map_Goto_Cord = {
                 {
@@ -2608,8 +2608,8 @@ scrSoul = {
             Map_Goto_Name = {
                 "Bread Table",
                 "Forest's Cave",
-                "Middle Forest",
-                "Raining Forest",
+                "Riacho da Floresta",
+                "Clareira Inicial",
             },
             Map_Goto_Cord = {
                 {
@@ -2818,10 +2818,10 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Forest's Temple",
-                "Assembely Base",
-                "Forest's Shelter",
-                "Raining Forest",
+                "Templo da Floresta",
+                "Casa da Árvore",
+                "Clareira Elevada",
+                "Clareira Inicial",
             },
             Map_Goto_Cord = {
                 {
@@ -2950,8 +2950,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Forest's Shelter",
-                "Wind Pathes",
+                "Clareira Elevada",
+                "Trilhas do Vento",
             },
             Map_Goto_Cord = {
                 {
@@ -3036,8 +3036,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Golden Lake",
-                "Valley of Thriumph",
+                "Lago Dourado",
+                "Vale do Triunfo",
             },
             Map_Goto_Cord = {
                 {
@@ -3054,9 +3054,9 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Elder Room",
-                "Under The Shrine",
-                "Sauna Room",
+                "Sala do Ancião",
+                "Sob o Santuário",
+                "Sala da Sauna",
             },
             OOB_Goto_Cord = {
                 {
@@ -3257,11 +3257,11 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {  
-                "The middle",
-                "Social Space",
-                "Sliding Race",
-                "Valley's Citadel",
-                "Village of Dreams",
+                "Pista de Gelo",
+                "Espaço Social",
+                "Corrida de Esqui",
+                "Cidadela do Vale",
+                "Vila dos Sonhos",
             },
             Map_Goto_Cord = {   
                 {
@@ -3340,11 +3340,11 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Dream's Guide",
-                "Yeti Park",
-                "Performance Theatre",
-                "Valley's Colosseum",
-                "Valley of Thriumph",
+                "Guia dos Sonhos",
+                "Desfiladeiro do Ieti",
+                "Teatro da Performance",
+                "Coliseu do Vale",
+                "Vale do Triunfo",
             },
             Map_Goto_Cord = {
                 {
@@ -3400,8 +3400,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Music Shop",
-                "Village of Dreams",
+                "Salão da Harmônia",
+                "Vila dos Sonhos",
             },
             Map_Goto_Cord = {
 
@@ -3451,8 +3451,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Wind Pathes",
-                "Village of Dreams",
+                "Trilhas do Vento",
+                "Vila dos Sonhos",
             },
             Map_Goto_Cord = {
                 {
@@ -3538,8 +3538,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Skip Race",
-                "Valley of Thriumph",
+                "Fim da Corrida",
+                "Vale do Triunfo",
             },
             Map_Goto_Cord = {   
                 {
@@ -3699,8 +3699,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Fly Race",
-                "Valley of Thriumph",
+                "Corrida de Vôo",
+                "Vale do Triunfo",
             },
             Map_Goto_Cord = {
 
@@ -3806,8 +3806,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Skip Race",
-                "Valley's Citadel",
+                "Fim da Corrida",
+                "Cidadela do Vale",
             },
             Map_Goto_Cord = {
 
@@ -3918,7 +3918,7 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Valley's Colosseum",
+                "Coliseu do Vale",
             },
             Map_Goto_Cord = {
 
@@ -3994,8 +3994,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Valley's Temple",
-                "Village of Dreams",
+                "Templo do Vale",
+                "Vila dos Sonhos",
             },
             Map_Goto_Cord = {
 
@@ -4075,8 +4075,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Valley's Colosseum",
-                "Wasteland Portal",
+                "Coliseu do Vale",
+                "Portal do Sertão Dourado",
             },
             Map_Goto_Cord = {
                 {
@@ -4093,9 +4093,9 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Temple",
-                "Enders Room",
-                "Tower",
+                "Templo",
+                "Sala do Fim",
+                "Torre",
             },
             OOB_Goto_Cord = {
                 {
@@ -4142,10 +4142,10 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Social Space",
-                "Underground Tornado",
-                "Aybass Boat",
-                "Nintendo Park",
+                "Espaço Social",
+                "Tornado",
+                "Barco do Abismo",
+                "Parque do Nintendo",
             },
             Map_Goto_Cord = {
                 {
@@ -4172,9 +4172,9 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "OOB Temple",
-                "Tower",
-                "Eden View",
+                "OOB Templo",
+                "Torre",
+                "Vista do Éden",
             },
             OOB_Goto_Cord = {
                 {
@@ -4485,8 +4485,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Graveyard",
-                "Ark Boat",
+                "Cemitério",
+                "Barco da Arca Esquecida",
             },
             Map_Goto_Cord = {
                 {
@@ -4655,8 +4655,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Enchantment Guide",
-                "The Boat",
+                "Guia do Encantos",
+                "Barco",
             },
             Map_Goto_Cord = {
                 {
@@ -4681,7 +4681,7 @@ scrSoul = {
         },
     },
     {
-        "DuskGraveyard",
+        "DuskCemitério",
         C_Runner = {
             {
                 69.450500488285, 
@@ -4851,9 +4851,9 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Wasteland",
-                "The Sinking Ship",
-                "Krills Field",
+                "Templo Destruído",
+                "Barco Naufragado ",
+                "Campo de Batalha",
             },
             Map_Goto_Cord = {
                 {
@@ -5003,8 +5003,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Krills Field",
-                "Graveyard",
+                "Campo de Batalha",
+                "Cemitério",
             },
             Map_Goto_Cord = {
                 {
@@ -5138,9 +5138,9 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Graveyard",
-                "Sinking Ship",
-                "Wasteland's Temple",
+                "Cemitério",
+                "Barco Naufragado",
+                "Templo do Sertão Dourado",
             },
             Map_Goto_Cord = {
                 {
@@ -5162,7 +5162,7 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Demons Prison",
+                "Prisão do Demonio",
                 "Spawn",
             },
             OOB_Goto_Cord = {
@@ -5219,7 +5219,7 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Vault of Knowledge",
+                "Relicário do Conhecimento",
             },
             Map_Goto_Cord = {
                 {
@@ -5231,7 +5231,7 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Elder Room",
+                "Sala do Ancião",
                 "Shrine",
             },
             OOB_Goto_Cord = {
@@ -5364,12 +5364,12 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Vault's Archive X",
-                "Second Floor",
-                "Third Floor",
-                "Fourth Floor",
-                "Starlight Desert",
-                "Office Portal[Cape Nedded]",
+                "Cofre do Conhecimento",
+                "Primeiro Andar",
+                "Segundo Andar",
+                "Terceiro Andar",
+                "Deserto da Luz Estelar",
+                "Portal do Escritório[Coloque a Capa]",
             },
             Map_Goto_Cord = {                 
                 {
@@ -5471,8 +5471,8 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "TGC Satellite",
-                "Office",
+                "Satélite",
+                "Escritório",
             },
             OOB_Goto_Cord = {
                 {
@@ -5882,7 +5882,7 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Golden kids",
+                "Crianças Douradas",
             },
             OOB_Goto_Cord = {
                 {
@@ -6102,8 +6102,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Home",
-                "Storm",
+                "Lar",
+                "Olho do Éden",
             },
             Map_Goto_Cord = {
                 {
@@ -6120,8 +6120,8 @@ scrSoul = {
         },
         OOB_Goto = {
             OOB_Goto_Name = {
-                "Moonlight Island",
-                "Elders Room",
+                "Ilha da Lua",
+                "Salão dos Anciões",
             },
             OOB_Goto_Cord = {
                 {
@@ -7111,7 +7111,7 @@ magics = {
                 -1633629698
             },
             {
-                "Teleport Forest Cave [Sparks Needed]",
+                "Teleport Caverna da Floresta [Sparks Needed]",
                 224110574
             },
             {
@@ -7119,7 +7119,7 @@ magics = {
                 -1256468339
             },
             {
-                "Teleport Forgotten Ark [Sparks Needed]",
+                "Teleport Arca Esquecida [Sparks Needed]",
                 -210323960
             },
             {
@@ -7324,7 +7324,7 @@ world = {
             },
             {
                 "Cemitério",
-                "DuskGraveyard"
+                "DuskCemitério"
             },
             {
                 "Navio Naufrágado",
