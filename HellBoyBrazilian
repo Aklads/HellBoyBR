@@ -6468,7 +6468,12 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-
+              "Entrada do Sacrifício",
+              "Metade do Sacrifício",
+              "Final do Sacrifício (sem abrigo)",
+              "Criança",
+              "Criança (abraço)",
+              "Feixo de Luz",
             },
             Map_Goto_Cord = {
 
@@ -6612,7 +6617,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-
+              "Estátuas",
+              "Galáxia dos Espíritos",
             },
             Map_Goto_Cord = {
 
@@ -6640,7 +6646,8 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-
+              "Inicio",
+              "Órbita",
             },
             Map_Goto_Cord = {
 
@@ -6696,7 +6703,10 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-
+              "Guarda Roupa",
+              "Banco Social",
+              "Pedra do Coração",
+              "Portal",
             },
             Map_Goto_Cord = {
 
