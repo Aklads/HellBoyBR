@@ -975,6 +975,7 @@ scrSoul = {
         Map_Goto = {
             Map_Goto_Name = {
                 "Espaço Social",
+                "Campo de Borboletas",
                 "Caverna",
                 "Ninho de Pássaros",
                 "Vilarejo dos Sinos",
@@ -984,6 +985,11 @@ scrSoul = {
                     122.66889190628, 
                     196.05523681625, 
                     -440.8715515195
+                },
+                {
+                  90.66310119628906, 
+                  149.40684509277344, 
+                  -10.564727783203125
                 },
                 {
                     169.57208251955, 
@@ -1742,6 +1748,8 @@ scrSoul = {
             Map_Goto_Name = {
                 "Ninho de Pássaros",
                 "Cachoreira das Nuvens",
+                "Gêiser",
+                "Guia do Santuário",
                 "Ilha da Tartaruga",
                 "Trilhas do Vento",
             },
@@ -1755,6 +1763,16 @@ scrSoul = {
                     494.98394775390, 
                     322.12222290039, 
                     388.57382202148
+                },
+                {
+                  144.84036254882812, 
+                  2.3149945735931396, 
+                  423.1502685546875
+                },
+                {
+                  13.496968269348145, 
+                  52.13252258300781,
+                  336.0412292480469
                 },
                 {
                     -128.4817657003, 
@@ -3631,7 +3649,7 @@ scrSoul = {
         Map_Goto = {
             Map_Goto_Name = {
                 "Fim da Corrida",
-                "Vale do Triunfo",
+                "Pista de Gelo",
             },
             Map_Goto_Cord = {   
                 {
@@ -3792,9 +3810,20 @@ scrSoul = {
         Map_Goto = {
             Map_Goto_Name = {
                 "Corrida de Vôo",
-                "Vale do Triunfo",
+                "Pista de Gelo",
             },
             Map_Goto_Cord = {
+              {
+                207.77365112304688, 
+                494.17559814453125,
+                -208.28456115722656
+              },
+              {
+                80.6904296875, 
+                403.3897705078125, 
+                425.3230895996094
+                
+              },
 
             },
         },
@@ -3902,6 +3931,16 @@ scrSoul = {
                 "Cidadela do Vale",
             },
             Map_Goto_Cord = {
+              {
+                157.48019409179688, 
+                1032.3441162109375, 
+                -101.71245574951172
+              },
+              {
+                198.82778930664062, 
+                1188.18896484375, 
+                402.87994384765625
+              },
 
             },
         },
@@ -4013,6 +4052,11 @@ scrSoul = {
                 "Coliseu do Vale",
             },
             Map_Goto_Cord = {
+              {
+                49.8943977355957, 
+                165.35885620117188, 
+                -2.0551342964172363
+              },
 
             },
         },
