@@ -1968,11 +1968,23 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Clareira Inicial",
+                "Área Social(novo)",
+                "Clareira Inicial(novo)",
+                "Riacho da Floresta",
                 "Trilhas do Vento",
                 "Casa da Árvore",
             },
             Map_Goto_Cord = {
+                {
+                    142.34158325195312, 
+                    216.88548278808594, 
+                    -625.3291015625
+                },
+                {
+                    17.48497200012207, 
+                    96.90708923339844, 
+                    -197.73484802246094
+                },
                 {
                     29.692853927305, 
                     98.798660278331, 
@@ -2549,7 +2561,7 @@ scrSoul = {
         Map_Goto = {
             Map_Goto_Name = {
                 "Clareira Elevada",
-                "Riacho da Floresta",
+                "Ponte Quebrada",
                 "Casa da Árvore",
                 "Floresta Oculta",
             },
@@ -2670,10 +2682,10 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Bread Table",
-                "Forest's Cave",
+                "Mesa da Vovó",
+                "Caverna da Floresta",
+                "Ponte Quebrada",
                 "Riacho da Floresta",
-                "Clareira Inicial",
             },
             Map_Goto_Cord = {
                 {
@@ -2885,7 +2897,7 @@ scrSoul = {
                 "Templo da Floresta",
                 "Casa da Árvore",
                 "Clareira Elevada",
-                "Clareira Inicial",
+                "Riacho da Floresta",
             },
             Map_Goto_Cord = {
                 {
