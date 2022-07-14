@@ -2189,6 +2189,7 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
+                "Guia do Vôo",
                 "Floresta Oculta",
                 "Caverna da Profecia",
                 "Santuário",
@@ -2198,6 +2199,12 @@ scrSoul = {
                 "Deserto da Luz Estelar",
             },
             Map_Goto_Cord = {
+            {
+                -124.79266357421875, 
+                318.30902099609375, 
+                258.135009765625
+            },
+            {
                 144.12722778320312, 
                 386.26446533203125, 
                 280.37451171875
