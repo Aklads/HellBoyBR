@@ -10032,8 +10032,9 @@ log_notFound = [[
     Algo deu errado! Por favor espere por
      o jogo para carregar ou reiniciar o jogo.
 ]]
-print[[
-       🪐╭╮╭━╮
+print[[-
+  🇧🇷 Translation by: Aklads#1082
+    🪐╭╮╭━╮
     ☄️┃┃┃╭╯╱╱╱╱╭╮
     🪐┃╰╯╯╭┳━━╮╰╋━━┳━━┳━╮
     ☄️┃╭╮┃┣┫╭╮┃╭┫┃━┫┃━┫╭╮╮
@@ -10042,7 +10043,7 @@ print[[
     🪐╱╱╱╱╱╱╱╱╭╯┃
     ☄️╱╱╱╱╱╱╱╱╰━╯
             
-    🇧🇷 Translation by: Aklads#1082]]
+   ]]
 function offseter()
     bootloader = gg.getRangesList("libBootloader.so")[1].start
     anptr = kj.getValue(bootloader + liboffsets.libanptr, 'Q')
