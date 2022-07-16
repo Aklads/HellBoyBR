@@ -3358,6 +3358,7 @@ scrSoul = {
         Map_Goto = {
             Map_Goto_Name = {  
                 "Pista de Gelo",
+                "Caverna do Vale",
                 "Espaço Social",
                 "Corrida de Esqui",
                 "Cidadela do Vale",
@@ -3368,6 +3369,11 @@ scrSoul = {
                     176.76861572265, 
                     49.317531585693, 
                     -515.0432128905
+                },
+                {
+                    298.445556640625, 
+                    45.522430419921875, 
+                    -461.14886474609375
                 },
                 {
                     -30.16819953957, 
@@ -4268,6 +4274,41 @@ scrSoul = {
             },
         },
     },
+    {   
+        "SunsetVillage_MusicShop",
+        C_Runner = {
+        },
+        S_Runner = {
+        },
+        AC_Runner = {
+        },
+        Map_Goto = {
+            Map_Goto_Name = {
+                "Aldeia dos Sonhos",
+                "Teatro da Vila",
+            },
+            Map_Goto_Cord = {
+                {
+                    335,428466796875, 
+                    59,85792922973633, 
+                    -88,3056640625
+                },
+                {
+                    360,98114013671875, 
+                    55,99687194824219, 
+                    -94,37828063964844
+                },
+            },
+        },
+        OOB_Goto = {
+            OOB_Goto_Name = {
+
+            },
+            OOB_Goto_Cord = {
+
+            },
+        },
+    },
     {
         "DuskStart",
         C_Runner = {
@@ -4855,7 +4896,7 @@ scrSoul = {
         },
     },
     {
-        "DuskCemitério",
+        "DuskGraveyard",
         C_Runner = {
             {
                 69.450500488285, 
@@ -5025,25 +5066,37 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
-                "Templo Destruído",
-                "Barco Naufragado ",
                 "Campo de Batalha",
+                "Návio Naufragado",
+                "Catapulta",
+                "Fogueira",
+                "Templo Destruído",
             },
             Map_Goto_Cord = {
                 {
-                    55.150875552734, 
-                    92.687889098211, 
-                    362.34075924375
+                    37,00910949707031, 
+                    83,35323333740234, 
+                    -262,0601501464844
                 },
                 {
-                    191.02172851565, 
-                    68.364334106531, 
-                    -71.76231384274
+                    192.80831909179688, 
+                    72.02284240722656, 
+                    -68.24526977539062
                 },
                 {
-                    33.163875579984, 
-                    78.794486999572, 
-                    -255.4049235156
+                    82.39149475097656, 
+                    70.41320037841797, 
+                    -16.331527709960938
+                },
+                {
+                    115.80224609375, 
+                    65.32330322265625, 
+                    -43.85477066040039
+                },
+                {
+                    53.828765869140625, 
+                    97.11670684814453, 
+                    367.616455078125
                 },
             },
         },
@@ -6084,6 +6137,7 @@ scrSoul = {
                 "Caverna do Jarro",
                 "Campo das Águas-Vivas",
                 "Deserto do Infinito",
+                "Relicário do Conhecimento",
             },
             Map_Goto_Cord = {
                 {
@@ -6135,6 +6189,11 @@ scrSoul = {
                     594.7643432617188, 
                     53.94963073730469, 
                     -80.30492401123047
+                },
+                {
+                    24.270334243774414, 
+                    19.22119140625, 
+                    166.29129028320312
                 },
             },
         },
@@ -7660,6 +7719,10 @@ world = {
                 "SunsetVillage"
             },
             {
+                "Salão da Harmônia",
+                "SunsetVillage_MusicShop"
+            }
+            {
                 "Desfiladeiro do Ieti",
                 "Sunset_YetiPark"
             },
@@ -7702,7 +7765,7 @@ world = {
             },
             {
                 "Cemitério",
-                "DuskCemitério"
+                "DuskGraveyard"
             },
             {
                 "Navio Naufrágado",
@@ -10033,7 +10096,7 @@ log_notFound = [[
      o jogo para carregar ou reiniciar o jogo.
 ]]
 print[[-
-  🇧🇷 Translation by: Aklads#1082
+    🇧🇷 Translation by: Aklads#1082 (discord)
     🪐╭╮╭━╮
     ☄️┃┃┃╭╯╱╱╱╱╭╮
     🪐┃╰╯╯╭┳━━╮╰╋━━┳━━┳━╮
@@ -10042,8 +10105,7 @@ print[[-
     ☄️╰╯╰━┻┻━━╯┃┣━━┻━━┻╯╰╯
     🪐╱╱╱╱╱╱╱╱╭╯┃
     ☄️╱╱╱╱╱╱╱╱╰━╯
-            
-   ]]
+            ]]
 function offseter()
     bootloader = gg.getRangesList("libBootloader.so")[1].start
     anptr = kj.getValue(bootloader + liboffsets.libanptr, 'Q')
