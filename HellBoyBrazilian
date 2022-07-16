@@ -6127,6 +6127,7 @@ scrSoul = {
         },
         Map_Goto = {
             Map_Goto_Name = {
+                "Trilhas do Vento",
                 "Palco de Espelhos",
                 "Torre de Lampião",
                 "Coroa do Rei",
@@ -6140,6 +6141,11 @@ scrSoul = {
                 "Relicário do Conhecimento",
             },
             Map_Goto_Cord = {
+                {
+                    236,40528869628906,
+                    13,106204986572266,
+                    944,138916015625
+                },
                 {
                     81.58821105957031, 
                     73.61961364746094, 
